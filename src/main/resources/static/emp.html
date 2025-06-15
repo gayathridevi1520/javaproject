@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employee</title>
+    <link rel="stylesheet" href="emp.css">
+</head>
+<body>
+   <div id="con">
+    <div class="con1">
+            <h1>Employee</h1>
+         <form action="http://localhost:8080/Employee" method="POST" id="employee">
+        <label for="name">enter your name</label>
+    <input type="text" id="name"  placeholder="enter name"><br>
+        <label for="place">enter your palce</label>
+    <input type="text" id="place" placeholder="enter place" ><br>
+    <div class="conbtn">
+         <button type="submit" id="btn">submit</button>
+    </div>
+
+    </form>
+    </div>
+    <div class="con2">
+        <h1>all employees</h1>
+        <table id="tabledata" border="1">
+           <thead>
+             <tr>
+                <th>id</th>
+                 <th>name</th>
+                  <th>place</th>
+
+            </tr>
+           </thead>
+           <tbody>
+
+           </tbody>
+           
+        </table>
+    </div>
+   </div>
+   <script src="emp.js"></script>
+</body>
+</html>

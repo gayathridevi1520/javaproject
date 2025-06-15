@@ -1,0 +1,26 @@
+### 🔹 Insert new employee
+POST http://localhost:8080/Employee
+Content-Type: application/json
+
+{
+  "name": "Alice",
+  "place": "Hyderabad"
+}
+
+### 🔹 Get all employees
+GET http://localhost:8080/Employee
+
+### 🔹 Get employee by ID
+GET http://localhost:8080/Employee/1
+
+### 🔹 Update employee
+PUT http://localhost:8080/Employee/1
+Content-Type: application/json
+
+{
+  "name": "priyanka",
+  "place": "london"
+}
+
+### 🔹 Delete employee
+DELETE http://localhost:8080/Employee/4
